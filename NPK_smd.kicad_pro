@@ -52,7 +52,52 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|119115000|70079700|5bd6edb8-0c49-4f0b-a83e-d91f68a2ffdf|229a06c8-baa4-4387-90b4-60ae95952084",
+          ""
+        ],
+        [
+          "clearance|119115000|70892500|229a06c8-baa4-4387-90b4-60ae95952084|3133c5c6-4726-453f-b36a-c87ad9904b25",
+          ""
+        ],
+        [
+          "hole_clearance|125275000|47105000|3ca5185b-47aa-4f29-925d-59632e8843f3|1cc95eb5-8aab-4b16-add0-c3254e3f811c",
+          ""
+        ],
+        [
+          "hole_clearance|125275000|47105000|3ca5185b-47aa-4f29-925d-59632e8843f3|77a67693-4bce-4fa0-bed5-48aca12a1a7e",
+          ""
+        ],
+        [
+          "hole_clearance|131375000|47105000|6ace83b4-9084-4d40-b01e-a2a7fc894896|959dda2d-9a2d-447e-a5d2-f2ccef5f2b92",
+          ""
+        ],
+        [
+          "hole_clearance|131375000|47105000|6ace83b4-9084-4d40-b01e-a2a7fc894896|a5889f10-97bf-4f77-a04c-6ffe5ca526ab",
+          ""
+        ],
+        [
+          "items_not_allowed|169870000|44045000|b4de2593-2ef6-4fe6-8eeb-591bd3522c04|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|158150000|123200000|dffab773-23cb-4b5f-bfdc-490a67967912|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_edge_clearance|165700000|51005000|c1b9cab1-660d-4366-a8d5-0fbfed00a2b1|75141718-1c96-4408-9198-a45d71161b1f",
+          ""
+        ],
+        [
+          "silk_edge_clearance|165700000|69245000|c1b9cab1-660d-4366-a8d5-0fbfed00a2b1|e046a3da-2b9a-4bc6-aa05-ca801cdb449f",
+          ""
+        ],
+        [
+          "unconnected_items|153613899|113238899|F.Cu|4|597cc6ea-4707-4e59-b15d-c9cea36e35a2|6c0e7831-4141-4b8a-a180-72af65d74fc3",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -490,7 +535,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "NPK_smd.step",
       "svg": "",
       "vrml": ""
     },
