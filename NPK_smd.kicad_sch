@@ -7387,6 +7387,10 @@
 		(uuid "0d1aaf2c-1fc3-422e-a54c-26b1bf27fab2")
 	)
 	(no_connect
+		(at 227.33 86.36)
+		(uuid "178cb4f2-ff21-4760-b099-9d786e8b29c5")
+	)
+	(no_connect
 		(at 88.9 43.18)
 		(uuid "19b71513-823e-4439-a7cd-accd1d0ac226")
 	)
@@ -7405,10 +7409,6 @@
 	(no_connect
 		(at 196.85 86.36)
 		(uuid "2c254b67-c84f-4d59-a638-ac6259d06033")
-	)
-	(no_connect
-		(at 227.33 96.52)
-		(uuid "2ef5ad39-4eb8-4d00-8fda-ec63484a2e0f")
 	)
 	(no_connect
 		(at 196.85 58.42)
@@ -8492,16 +8492,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 86.36) (xy 233.68 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ae61e87-9717-4b7b-bee0-ab5c233586d5")
-	)
-	(wire
-		(pts
 			(xy 156.21 74.93) (xy 156.21 71.12)
 		)
 		(stroke
@@ -9542,6 +9532,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 96.52) (xy 227.33 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd1cbfa3-7865-4f8c-a499-c671602f3916")
+	)
+	(wire
+		(pts
 			(xy 227.33 58.42) (xy 237.49 58.42)
 		)
 		(stroke
@@ -9940,16 +9940,6 @@
 		)
 		(uuid "26cd16c8-eb15-4520-881a-cd0a8ced9753")
 	)
-	(label "DHT"
-		(at 233.68 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "339c81c3-e917-4d6d-b577-74be6551667a")
-	)
 	(label "D-"
 		(at 67.31 43.18 0)
 		(effects
@@ -9969,6 +9959,16 @@
 			(justify left bottom)
 		)
 		(uuid "3bcf04da-db18-4cf7-bd2b-4f9cbcba913d")
+	)
+	(label "DHT"
+		(at 232.41 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3e75e1b3-b8ab-4293-ac57-6d119abf85b5")
 	)
 	(label "IO13"
 		(at 97.79 158.75 180)
